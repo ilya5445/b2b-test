@@ -14,7 +14,6 @@ CREATE TABLE `phone_numbers` (
 );
 
 -- Добавление индексов
-ALTER TABLE users ADD INDEX `gender` (`gender`);
 ALTER TABLE phone_numbers ADD INDEX `user_id` (`user_id`);
 
 -- Сам запрос
